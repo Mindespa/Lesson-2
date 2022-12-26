@@ -47,5 +47,15 @@ input{
     float: left;
 }
 
-.inputsContainer > input:nth-child(2)
+.inputsContainer > input:nth-child(2){
+    margin-left: 15px;
+}
     
+#cb{
+    box-shadow: 1px 1px 3px rgb(47, 71, 105);
+    border: 100px solid white;
+    box-shadow: none;
+    display: inline-block;
+    margin-left: 75px;
+    width: 16px;
+}
