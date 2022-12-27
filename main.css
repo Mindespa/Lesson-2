@@ -68,6 +68,13 @@ input[type="text"], input[type="password"]{
 }
 
 #cbContainer{
-    padding-top: 50px;
-   
+    padding-top: 1px;
+}
+
+/* #textsContainer{
+    vertical-align: top;
+} */
+a{
+    color: aqua;
+    text-decoration: none;
 }
