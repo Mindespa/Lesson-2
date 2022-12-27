@@ -35,8 +35,8 @@ input[type="text"], input[type="password"]{
     width: 270px;
     display: block;
     margin: 30px; 
-    margin-left: 45px;
-    height: 25px;
+    margin-left: 55px;
+    height: 30px;
     border: 0;
     padding: 0;
     border-radius: 12px;
@@ -47,7 +47,7 @@ input[type="text"], input[type="password"]{
 .inputsContainer > input{
     display: inline-block;
     width: 120px;
-    margin: 0 0 0px 42px;
+    margin: 0 0 0px 52px;
     float: left;
 }
 
@@ -60,7 +60,7 @@ input[type="text"], input[type="password"]{
     border: 100px solid white;
     box-shadow: none;
     display: inline-block;
-    margin-left: 75px;
+    margin-left: 107px;
     width: 16px;
     height: 16px;
     padding-top: 20px;
@@ -77,4 +77,21 @@ input[type="text"], input[type="password"]{
 a{
     color: aqua;
     text-decoration: none;
+
+}
+
+button{
+    background-color: aqua;
+    margin-left: 100px;
+    margin-top: 10px;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-weight: 900;
+    box-shadow: 0px 2px 0px 2px rgb(33, 145, 145), 1px 3px 2px 2px rgb(47, 72, 105);
+}
+
+label{
+    color: white;
 }
